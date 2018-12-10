@@ -1,0 +1,118 @@
+body{
+	background-color: #eaeaea;
+}
+nav{
+	height:70px;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#navigation_menu .nav-item{
+	text-align: center;
+}
+.dropdown-menu
+{
+	padding:0;
+}
+.dropdown-menu a.dropdown-item{
+	min-height: 40px;
+}
+.dropdown-menu a.dropdown-item:hover{
+	background-color: #e9ecef;
+}
+.dropdown-menu .dropdown-divider
+{
+	margin:0;
+	height:0;
+}
+.popular-section-title{
+	text-align: center;
+	margin-bottom: 10px;
+	color:#212529a3;
+	font-size: 40px;
+	font-weight: bold;
+}
+#footer{
+	background-color:#212529;
+	color:#fff;
+}
+#footer .container {
+    padding-top: 80px;
+    border-top: 1px solid #F4f4f9;
+}
+.footer-widget {
+    margin-bottom: 40px;
+}
+.footer-logo {
+    margin-bottom: 40px;
+}
+.footer-widget a {
+    color: #fff;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+.footer-widget a:hover, .footer-widget a:focus {
+    text-decoration: none;
+    color: #a7b3c6;;
+}
+.footer-nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-copyright {
+    margin-top: 20px;
+    color: #a7b3c6;
+    font-size: 13px;
+}
+.footer-widget .footer-title {
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.footer-links li + li {
+    margin-top: 5px;
+}
+.footer-newsletter form {
+    position: relative;
+}
+.footer-newsletter form > input.input {
+    padding-right: 55px;
+}
+.footer-newsletter form > .newsletter-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #a7b3c6;
+    background: transparent;
+    border: none;
+    border-radius: 0px 2px 2px 0px;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+@media only screen and (min-width: 768px) {
+	#navigation_menu{
+		margin-left:200px;
+	}
+	
+	#navigation_menu .nav-item{
+		min-width:120px;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+		top:50px;
+	}
+}
+
+
+.bd-example {
+	position: relative;
+	padding-left:10%;
+	padding-right:10%;
+    margin: 1rem -15px 0;
+}
